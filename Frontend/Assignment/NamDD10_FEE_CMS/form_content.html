@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="CSS/styles.css">
+
+    <title>Form Content</title>
+</head>
+
+<body>
+    <header class="header-page">
+        <div class="">
+            <strong class="header-name">CMS</strong>
+
+            <div class="user-button-list">
+                <button class="user-button">
+                    <i class="fas fa-user"></i>
+                    <i class="fas fa-caret-down"></i>
+                </button>
+                <ul class="hidden-button">
+                    <li><a href="edit_profile.html"><i class="fas fa-user"></i> User Profile</a></li>
+                    <li><a href="login.html"><i class="fas fa-sign-out-alt"></i> Logout</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="content-page">
+        <div class="left-sider">
+            <form class="searchbox">
+                <input type="search" id="search" placeholder="search">
+                <button>
+                    <i class="fas fa-search"></i>
+                </button>
+            </form>
+
+            <ul>
+                <li>
+                    <a href="view_contents.html">
+                        <i class="fas fa-list-alt"></i> View content
+                    </a>
+                </li>
+                <li class="active">
+                    <a href="form_content.html">
+                        <i class="fas fa-pen-square"></i> Form content
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="main-content">
+            <h1 class="main-content-header">Add Content</h1>
+
+            <div class="user-infor">
+                <div class="user-infor-header">
+                    <p>Content Form Elements</p>
+                </div>
+
+                <div class="input-user-infor">
+                    <form action="add-content" id="addForm">
+                        <label for="title">Title</label>
+                        <input type="text" id="title" placeholder="Enter the title" required>
+                        <label for="brief">Brief</label>
+                        <textarea id="brief" rows="3" required></textarea>
+                        <label for="content">Content</label>
+                        <textarea id="content" rows="5" required></textarea>
+                    </form>
+
+                    <button id="submit">Submit button</button>
+                    <button id="reset">Reset button</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="JS/form_content.js"></script>
+</body>
+
+</html>

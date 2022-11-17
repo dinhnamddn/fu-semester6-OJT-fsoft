@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <table id="table-bill" class="table-bill">
+            <tr>
+                <td>Product</td>
+                <td>Description</td>
+                <td>Quantity/Update</td>
+                <td>Price</td>
+                <td>Discount</td>
+                <td>Tax</td>
+                <td>Total</td>
+            </tr>
+            <tr id="product1">
+                <td><img src="img/pexels-ihsan-adityawarman-4191970.jpg"></img></td>
+                <td>
+                    <p>MASSA AST</p>
+                    <p>Color: Black, Materia: Meta</p>
+                </td>
+                <td>
+                    <table class="quantity-update">
+                        <tr>
+                            <td>
+                                <input id="quantity1st" type="text" value="1" size="1">
+                            </td>
+                            <td><button id="minus1st" onclick="minus1(1)">-</button></td>
+                            <td><button id="plus1st" onclick="plus1(1)">+</button></td>
+                            <td><button id="remove1st" onclick="remove(1)">x</button></td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    &dollar;
+                    <input type="text" readonly value="120.00" size="4" id="price1">
+                </td>
+                <td>
+                    &dollar;
+                    <input type="text" readonly value="25.00" size="4" id="discount1">
+                </td>
+                <td>
+                    &dollar;
+                    <input type="text" readonly value="15.00" size="4" id="tax1">
+                </td>
+                <td>
+                    &dollar;
+                    <input type="text" readonly value="110.00" size="4" id="total1">
+                </td>
+            </tr>
+            <tr id="product2">
+                <td><img src="img/pexels-lisa-fotios-990865.jpg"></img></td>
+                <td>
+                    <p>MASSA AST</p>
+                    <p>Color: Black, Materia: Meta</p>
+                </td>
+                <td>
+                    <table class="quantity-update">
+                        <tr>
+                            <td>
+                                <input id="quantity2nd" type="text" value="1" disabled size="1">
+                            </td>
+                            <td><button id="minus2nd" onclick="minus1(2)">-</button></td>
+                            <td><button id="plus2nd" onclick="plus1(2)">+</button></td>
+                            <td><button id="remove2nd" onclick="remove(2)">x</button></td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    &dollar;
+                    <input type="text" readonly value="7.00" size="4" id="price2">
+                </td>
+                <td>
+                    <input type="text" readonly value="--" size="4" id="discount2">
+                </td>
+                <td>
+                    &dollar;
+                    <input type="text" readonly value="1.00" size="4" id="tax2">
+                </td>
+                <td>
+                    &dollar;
+                    <input type="text" readonly value="8.00" size="4" id="total2">
+                </td>
+            </tr>
+            <tr id="product3">
+                <td><img src="img/pexels-pixabay-51383.jpg"></img></td>
+                <td>
+                    <p>MASSA AST</p>
+                    <p>Color: Black, Materia: Meta</p>
+                </td>
+                <td>
+                    <table class="quantity-update">
+                        <tr>
+                            <td>
+                                <input id="quantity3rd" type="text" value="1" disabled size="1">
+                            </td>
+                            <td><button id="minus3rd" onclick="minus1(3)">-</button></td>
+                            <td><button id="plus3rd" onclick="plus1(3)">+</button></td>
+                            <td><button id="remove3rd" onclick="remove(3)">x</button></td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    &dollar;
+                    <input type="text" readonly value="120.00" size="4" id="price3">
+                </td>
+                <td>
+                    &dollar;
+                    <input type="text" readonly value="25.00" size="4" id="discount3">
+                </td>
+                <td>
+                    &dollar;
+                    <input type="text" readonly value="15.00" size="4" id="tax3">
+                </td>
+                <td>
+                    &dollar;
+                    <input type="text" readonly value="110.00" size="4" id="total3">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="6" class="total">Total Price</td>
+                <td>
+                    &dollar;
+                    <input type="text" readonly value="228.00" size="4" id="total-price">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="6" class="total">Total Discount</td>
+                <td>
+                    &dollar;
+                    <input type="text" readonly value="50.00" size="4" id="total-discount">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="6" class="total">Total Tax</td>
+                <td>
+                    &dollar;
+                    <input type="text" readonly value="31.00" size="4" id="total-tax">
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

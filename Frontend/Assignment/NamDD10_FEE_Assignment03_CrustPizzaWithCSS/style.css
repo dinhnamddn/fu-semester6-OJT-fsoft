@@ -1,0 +1,32 @@
+body {
+    /* Khong co font nhu trong de */
+    font-family: cursive;
+}
+
+.header {
+    background: url(img/banner.png);
+    background-size: 50%;
+    height: 250px;
+    color: #fff;
+    text-align: center;
+    position: relative;
+}
+
+.header-content {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.header-content p {
+    text-decoration: underline;
+}
+
+.menu {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.price {
+    color: rgb(255, 217, 0);
+}

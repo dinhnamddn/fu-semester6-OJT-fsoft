@@ -1,0 +1,238 @@
+.container {
+    width: 100%;
+    height: auto;
+    background-color: rgb(223, 223, 223);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+p {
+    margin: 0;
+}
+
+
+.div_header p:first-child {
+    font-size: 3em;
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+.div_header p:nth-child(2) {
+    font-size: 1.7em;
+    margin: 15px auto;
+}
+
+/* Banner part */
+
+.banner {
+    width: 100%;
+    position: relative;
+}
+
+.banner_left {
+    position: absolute;
+    top: 50%;
+    left: 25px;
+    transform: translate(0%, -50%);
+    width: 29%;
+    background-color: rgba(0, 0, 0, 0.548);
+    color: rgb(224, 224, 224);
+    border-radius: 5px;
+    padding: 25px;
+    text-align: center;
+}
+
+.banner_left p:first-child {
+    font-size: 2.8em;
+    border-bottom: solid 1px rgb(224, 224, 224);
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+}
+
+.banner_left p:nth-child(2) {
+    font-size: 1.7em;
+    margin-bottom: 25px;
+}
+
+.banner_left button {
+    height: 50px;
+    font-size: 1.5em;
+    background-color: rgb(34, 141, 24);
+    color: rgb(224, 224, 224);
+    border: none;
+    border-radius: 2px;
+    width: 100%;
+}
+
+.banner_img {
+    width: 100%;
+    height: auto;
+}
+
+.banner_right {
+    position: absolute;
+    top: 50%;
+    right: 25px;
+    transform: translate(0%, -50%);
+    background-color: rgba(0, 0, 0, 0.548);
+    border-radius: 5px;
+    padding: 15px 30px;
+}
+
+.banner_right a {
+    color: rgb(224, 224, 224);
+    text-decoration: none;
+    font-size: 1.7em;
+}
+
+
+/* Clarity part */
+
+.clarity {
+    padding: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.clarity img {
+    width: 27%;
+}
+
+.clarity_content {
+    width: calc(73% - 20px);
+    margin-left: 20px;
+}
+
+.clarity_content p:first-child {
+    font-weight: bold;
+    font-size: 3em;
+}
+
+.clarity_content p:nth-child(2) {
+    color: rgb(216, 39, 39);
+    font-weight: bold;
+    font-size: 2.4em;
+    margin: 25px 0;
+}
+
+.clarity_content p:last-child {
+    font-size: 1.7em;
+}
+
+.clarity_content p:last-child span {
+    font-size: 1.2em;
+}
+
+/* Feature part */
+
+.features {
+    background-color: rgb(107, 107, 107);
+    padding: 25px;
+    color: #fff;
+}
+
+.feature_header {
+    text-align: center;
+}
+
+.feature_icon {
+    width: calc(100% - 0px);
+    text-align: center;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.icon_column {
+    width: 25%;
+}
+
+.icon_column div {
+    margin-top: 90px;
+    font-size: 1.7em;
+}
+
+.icon_column div i {
+    font-size: 4em;
+    margin-bottom: 10px;
+}
+
+/* Pricing part */
+
+.pricing {
+    padding: 40px;
+}
+
+.pricing_header {
+    text-align: center;
+    color: #000;
+}
+
+.pricing_plan {
+    width: 100%;
+    display: flex;
+    margin-top: 60px;
+}
+
+.plan_detail {
+    width: 50%;
+    margin: 15px;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.plan_detail tr td {
+    border: solid 1px rgb(189, 189, 189);
+    font-size: 1.7em;
+    padding: 15px;
+}
+
+.basic_plan tr:first-child td {
+    background-color: rgb(138, 138, 138);
+    border: solid 1px rgb(138, 138, 138);
+}
+
+.premium_plan tr:first-child td {
+    background-color: rgb(214, 52, 52);
+    border: solid 1px rgb(214, 52, 52);
+}
+
+.plan_detail tr:first-child td {
+    height: 50px;
+    color: #fff;
+}
+
+.plan_detail tr td button {
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    font-size: 1em;
+    border-radius: 3px;
+    padding: 10px 20px;
+}
+
+.plan_detail tr td span {
+    font-weight: bold;
+}
+
+.plan_detail tr:nth-child(6) td {
+    height: 50px;
+}
+
+/* Footer part */
+
+.footer {
+    font-size: 1.7em;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(207, 207, 207);
+}
+
+.footer p {
+    width: 100%;
+    text-align: center;
+}
+
+.footer p a {
+    color: #000;
+}

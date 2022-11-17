@@ -1,0 +1,100 @@
+.container {
+    margin: 0 auto;
+    width: 1000px;
+    padding: 2px;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.table-bill {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table-bill tr td {
+    border: solid 1px #cacaca;
+    padding: 10px;
+}
+
+.table-bill tr:first-child td {
+    font-weight: bold;
+}
+
+.table-bill img {
+    width: 70%;
+    height: auto;
+}
+
+.table-bill tr td:first-child {
+    width: 100px;
+}
+
+.table-bill tr td input {
+    display: inline;
+    border: none;
+}
+
+.table-bill tr td input:focus {
+    outline: none;
+}
+
+.title-table {
+    color: white;
+    background: #7952b3;
+    height: 50px;
+}
+
+.total {
+    text-align: right;
+}
+
+.table-bill tr td img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+button {
+    border: solid 1px #cccccc;
+    font-size: large;
+    padding: 5px 10px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.quantity-update {
+    border-collapse: collapse;
+}
+
+.quantity-update tr td {
+    width: 40px !important;
+    text-align: center;
+    padding: 0 !important;
+}
+
+.quantity-update tr td:nth-child(2),
+.quantity-update tr td:nth-child(3) {
+    background-color: rgb(189, 189, 189);
+}
+
+.quantity-update tr td:nth-child(2) button,
+.quantity-update tr td:nth-child(3) button {
+    font-weight: bold !important;
+    color: black;
+}
+
+.quantity-update tr td:last-child {
+    background-color: red;
+}
+
+.quantity-update tr td:last-child button {
+    font-weight: bold !important;
+    color: #fff !important;
+}
+
+.quantity-update tr td:first-child input {
+    border: none;
+}
+
+.quantity-update tr td:first-child input:focus {
+    outline: none;
+}

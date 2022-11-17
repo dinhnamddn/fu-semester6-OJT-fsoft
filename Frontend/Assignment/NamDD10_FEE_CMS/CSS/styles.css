@@ -1,0 +1,310 @@
+body {
+    margin: 0;
+}
+
+/* Login and Register */
+
+.login-resgister {
+    background-color: rgb(240, 240, 240);
+}
+
+.container-logres {
+    width: 500px;
+    margin: 0 auto;
+    border: solid 1px rgb(165, 165, 165);
+    border-radius: 5px;
+    background-color: #fff;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -70%);
+}
+
+.input-header {
+    background-color: rgb(229, 226, 226);
+    height: 45px;
+    position: relative;
+    border-bottom: solid 1px rgb(165, 165, 165);
+}
+
+.input-header p {
+    margin: 0 20px;
+    position: absolute;
+    top: 50%;
+    transform: translate(0%, -50%);
+}
+
+.input-info {
+    padding: 20px;
+    width: calc(100% - 40px);
+}
+
+.authen-form {
+    width: calc(100% - 0px);
+}
+
+.authen-form input {
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.authen-form input:not(input[type=checkbox]) {
+    display: block;
+    height: 30px;
+}
+
+.authen-form input[type=text] {
+    width: calc(100% - 19px);
+    border: solid 1px rgb(165, 165, 165);
+    border-radius: 3px;
+    padding-left: 15px;
+}
+
+.authen-form input[type=checkbox] {
+    margin: 0 5px 15px 0;
+    padding: 15px;
+}
+
+.submit-button {
+    background-color: green;
+    width: 100%;
+    line-height: 0px;
+    padding: 25px;
+    margin-bottom: 15px;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* ==================================== */
+/* Edit profile & Form content & view contents */
+
+
+/* header */
+
+.header-page {
+    width: 100%;
+    height: 80px;
+    background-color: rgb(231, 231, 231);
+    position: relative;
+    border-bottom: solid 1px rgb(165, 165, 165);
+    font-size: 1.5em;
+}
+
+.header-name {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translate(0%, -50%);
+}
+
+.user-button-list {
+    position: absolute;
+    top: 0;
+    right: 20px;
+    height: 100%;
+}
+
+.user-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 120px;
+    font-size: 1.3em;
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.user-button:hover {
+    background-color: rgb(206, 206, 206);
+}
+
+.hidden-button {
+    display: none;
+    list-style: none;
+    border: solid 1px rgb(231, 231, 231);
+    background-color: #fff;
+    padding: 0;
+    box-shadow: 2px 2px 4px 1px rgba(165, 165, 165, 0.699);
+    position: absolute;
+    top: 50px;
+    right: 0px;
+    width: 170px;
+    z-index: 1;
+}
+
+.hidden-button li {
+    border-bottom: solid 1px rgb(231, 231, 231);
+    padding: 5px 10px;
+}
+
+.hidden-button li a {
+    color: #000;
+}
+
+.hidden-button li:hover {
+    background-color: rgb(194, 194, 194);
+}
+
+.user-button-list:hover .hidden-button {
+    display: block;
+}
+
+.hidden-button:hover {
+    display: block;
+}
+
+/* body */
+
+.content-page {
+    width: 100%;
+    display: inline;
+    position: absolute;
+    top: 81px;
+}
+
+.left-sider {
+    float: left;
+    width: 20%;
+    height: calc(100vh - 81px);
+    background-color: rgb(231, 231, 231);
+    border-right: solid 1px rgb(165, 165, 165);
+    font-size: 1.5em;
+}
+
+.searchbox {
+    width: calc(100% - 20px);
+    padding: 15px 10px;
+}
+
+.searchbox input {
+    width: calc(100% - 51px);
+    margin: 0;
+    padding: 7px;
+    border: solid 1px rgb(199, 199, 199);
+}
+
+.searchbox button {
+    margin: 0;
+    width: 45px;
+    padding: 7px 0;
+    border: solid 1px rgb(199, 199, 199);
+    background-color: #fff;
+}
+
+.left-sider ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border-top: solid 1px rgb(199, 199, 199);
+}
+
+.left-sider ul li {
+    width: calc(100% - 20px);
+    padding: 5px 10px;
+    border-bottom: solid 1px rgb(199, 199, 199);
+}
+
+.main-content {
+    float: right;
+    width: calc(80% - 41px);
+    padding: 20px;
+}
+
+.active {
+    background-color: rgb(194, 194, 194);
+}
+
+/* main content */
+
+.main-content-header {
+    border-bottom: solid 1px rgb(165, 165, 165);
+}
+
+.user-infor {
+    border: solid 1px rgb(165, 165, 165);
+    border-radius: 3px;
+}
+
+.user-infor-header {
+    border-bottom: solid 1px rgb(165, 165, 165);
+    background-color: rgb(229, 226, 226);
+    height: 45px;
+    position: relative;
+}
+
+.user-infor-header p {
+    margin: 0 20px;
+    position: absolute;
+    top: 50%;
+    transform: translate(0%, -50%);
+}
+
+.user-infor .input-user-infor {
+    padding: 20px;
+}
+
+.input-user-infor label,
+.input-user-infor input,
+.input-user-infor textarea {
+    display: block;
+    margin-bottom: 10px;
+    width: 70%;
+}
+
+.input-user-infor label:not(label:first-child) {
+    margin-top: 20px;
+}
+
+.input-user-infor p {
+    margin: 0;
+    color: rgb(119, 119, 119);
+}
+
+.input-user-infor input {
+    border: solid 1px rgb(199, 199, 199);
+    border-radius: 2px;
+    padding: 5px;
+}
+
+.input-user-infor textarea {
+    border: solid 1px rgb(199, 199, 199);
+}
+
+.input-user-infor label {
+    font-weight: bold;
+}
+
+.input-user-infor button {
+    margin-top: 10px;
+    background-color: #fff;
+    border: solid 1px rgb(199, 199, 199);
+    border-radius: 3px;
+    width: 100px;
+    padding: 3px;
+}
+
+.content-table {
+    border-collapse: collapse;
+}
+
+.content-table tr td {
+    border: solid 1px rgb(199, 199, 199);
+    padding: 5px;
+}
+
+.content-table tr:first-child td {
+    font-weight: bold;
+}
+
+.content-table tr:nth-child(even) td {
+    background-color: rgb(241, 241, 241);
+}

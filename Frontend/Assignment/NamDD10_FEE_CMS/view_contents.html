@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="CSS/styles.css">
+
+    <title>View Contents</title>
+</head>
+
+<body>
+    <header class="header-page">
+        <div class="">
+            <strong class="header-name">CMS</strong>
+
+            <div class="user-button-list">
+                <button type="button" class="user-button">
+                    <i class="fas fa-user"></i>
+                    <i class="fas fa-caret-down"></i>
+                </button>
+                <ul class="hidden-button">
+                    <li><a href="edit_profile.html"><i class="fas fa-user"></i> User Profile</a></li>
+                    <li><a href="login.html"><i class="fas fa-sign-out-alt"></i> Logout</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="content-page">
+        <div class="left-sider">
+            <form class="searchbox">
+                <input type="search" id="search" placeholder="search">
+                <button>
+                    <i class="fas fa-search"></i>
+                </button>
+            </form>
+
+            <ul>
+                <li class="active">
+                    <a href="view_contents.html">
+                        <i class="fas fa-list-alt"></i> View content
+                    </a>
+                </li>
+                <li>
+                    <a href="form_content.html">
+                        <i class="fas fa-pen-square"></i> Form content
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="main-content">
+            <h1 class="main-content-header">View Content</h1>
+
+            <div class="user-infor">
+                <div class="user-infor-header">
+                    <p>View Content List</p>
+                </div>
+
+                <div class="input-user-infor">
+                    <table class="content-table">
+                        <tr>
+                            <td>#</td>
+                            <td>Title</td>
+                            <td>Brief</td>
+                            <td>Created Date</td>
+                        </tr>
+
+                        <tr>
+                            <td>1</td>
+                            <td>Lorem ipsum dolor sit amet consectetur</td>
+                            <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum dolore sit sed rerum
+                                nostrum sapiente!</td>
+                            <td>31/08/2016 12:03</td>
+                        </tr>
+
+                        <tr>
+                            <td>2</td>
+                            <td>Lorem ipsum dolor sit amet consectetur</td>
+                            <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum dolore sit sed rerum
+                                nostrum sapiente!</td>
+                            <td>31/08/2017 12:03</td>
+                        </tr>
+
+                        <tr>
+                            <td>3</td>
+                            <td>Lorem ipsum dolor sit amet consectetur</td>
+                            <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum dolore sit sed rerum
+                                nostrum sapiente!</td>
+                            <td>31/08/2018 12:03</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
