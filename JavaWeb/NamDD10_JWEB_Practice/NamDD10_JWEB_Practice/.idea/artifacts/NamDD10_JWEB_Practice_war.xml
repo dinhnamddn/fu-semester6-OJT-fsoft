@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="NamDD10_JWEB_Practice:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>NamDD10_JWEB_Practice</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="NamDD10_JWEB_Practice-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="NamDD10_JWEB_Practice:war exploded" />
+    </root>
+  </artifact>
+</component>

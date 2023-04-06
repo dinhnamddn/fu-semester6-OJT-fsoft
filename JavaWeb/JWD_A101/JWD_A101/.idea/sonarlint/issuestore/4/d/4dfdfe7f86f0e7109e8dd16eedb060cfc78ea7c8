@@ -1,0 +1,25 @@
+
+`
+java:S1192"JDefine a constant instead of duplicating this literal "pageIndex" 3 times.(«Ó·
+f
+java:S13015"KReplace this "switch" statement by "if" statements to increase readability.(ØÿÜ«øÿÿÿÿ
+N
+java:S1481"3Remove this unused "accountDAOImpl" local variable.(§ûèùÿÿÿÿ
+<	java:S131""Add a default case to this switch.(ØÿÜ«øÿÿÿÿ
+t
+java:S1989"YHandle the following exception that could be thrown by "parseInt": NumberFormatException.(îĞ†Åşÿÿÿÿ
+w
+java:S1989&"aHandle the following exceptions that could be thrown by "forward": ServletException, IOException.(µ˜Õ
+w
+java:S1989*"aHandle the following exceptions that could be thrown by "forward": ServletException, IOException.(µ˜Õ
+h
+java:S37760"RRefactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.(‹¨¯¿
+<	java:S1315""Add a default case to this switch.(ØÿÜ«øÿÿÿÿ
+t
+java:S1989<"YHandle the following exception that could be thrown by "parseInt": NumberFormatException.(Şè Æúÿÿÿÿ
+t
+java:S1989@"YHandle the following exception that could be thrown by "parseInt": NumberFormatException.(¹¯§‰úÿÿÿÿ
+u
+java:S1989I"SHandle the following exception that could be thrown by "sendRedirect": IOException.(ùàÀ‰ûÿÿÿÿ8¯Â½Ï¨0
+f
+java:S1989^"PHandle the following exception that could be thrown by "getWriter": IOException.(ìéğ”
